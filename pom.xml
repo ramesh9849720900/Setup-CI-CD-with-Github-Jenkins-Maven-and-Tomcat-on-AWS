@@ -38,6 +38,14 @@
           <target>1.7</target>
         </configuration>
       </plugin>
+
+<plugins>
+    <plugin>
+      <groupId>org.sonarsource.scanner.maven</groupId>
+      <artifactId>sonar-maven-plugin</artifactId>
+      <version>10.4.1</version>
+    </plugin>
+  </plugins>
                     <plugin>
                    <groupId>org.apache.maven.plugins</groupId>
                    <artifactId>maven-war-plugin</artifactId>
