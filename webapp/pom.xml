@@ -17,6 +17,7 @@
 
   <build>
     <finalName>${project.artifactId}</finalName>
+    <testSourceDirectory>src/test/java</testSourceDirectory>
 
     <plugins>
       <plugin>
