@@ -15,14 +15,6 @@
   <name>Webapp</name>
   <description>Webapp.</description>
 
-<dependencies>
-  <dependency>
-    <groupId>junit</groupId>
-    <artifactId>junit</artifactId>
-    <scope>test</scope>
-  </dependency>
-</dependencies>
-
   <build>
     <finalName>${project.artifactId}</finalName>
 
@@ -35,6 +27,12 @@
   </build>
 
   <dependencies>
+           
+   <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
 
     <dependency>
       <groupId>javax.servlet</groupId>
@@ -47,6 +45,7 @@
       <artifactId>jsp-api</artifactId>
       <scope>provided</scope>
     </dependency>
+           
   </dependencies>
 
 </project>
