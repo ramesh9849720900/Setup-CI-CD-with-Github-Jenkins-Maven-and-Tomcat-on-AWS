@@ -6,7 +6,7 @@ import static org.junit.Assert.assertTrue;
 public class MyTests {
 
     @Test
-    public void dummyTest() {
+    public void testAlwaysPasses() {
         assertTrue(true);
     }
 }
