@@ -18,4 +18,4 @@ spec:
       - name: tomcat-container
         image: ramesh9849720900/webapp:latest
         ports:
-        - containerPort: 9090
+        - containerPort: 8080
