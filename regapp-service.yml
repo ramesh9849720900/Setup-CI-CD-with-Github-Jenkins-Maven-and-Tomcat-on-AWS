@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: tomcat-service
+  name: valaxy-service
 spec:
   selector:
-    app: tomcat
+    app: valaxy-regapp
   type: LoadBalancer   # or NodePort for internal
   ports:
     - protocol: TCP
