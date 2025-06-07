@@ -8,5 +8,5 @@ spec:
   type: LoadBalancer   # or NodePort for internal
   ports:
     - protocol: TCP
-      port: 8081
+      port: 9090
       targetPort: 8080
